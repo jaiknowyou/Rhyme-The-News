@@ -1,0 +1,11 @@
+{
+    "name":"Rhyme The News",
+    "description":"News Headlines which sounds good and raises the praises",
+    "version":"0.1",
+    "manifest_version": 3,
+    "host_permissions":["https://www.thequint.com/*","https://www.thehindu.com/*"],
+    "content_scripts":[{
+        "matches":["https://www.thequint.com/*","https://www.thehindu.com/*"],
+        "js":["content.js"]
+    }]
+}
